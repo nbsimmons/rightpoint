@@ -645,6 +645,10 @@ section:not(.intro):last-child {
   padding-right: 0.75rem;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .absolute {
   position: absolute;
 }
@@ -690,10 +694,6 @@ section:not(.intro):last-child {
   margin-bottom: 1.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -704,6 +704,10 @@ section:not(.intro):last-child {
 
 .mt-\[30px\] {
   margin-top: 30px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .inline {
@@ -734,8 +738,8 @@ section:not(.intro):last-child {
   height: 100%;
 }
 
-.h-auto {
-  height: auto;
+.w-\[25px\] {
+  width: 25px;
 }
 
 .w-\[70\%\] {
@@ -744,10 +748,6 @@ section:not(.intro):last-child {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[25px\] {
-  width: 25px;
 }
 
 .min-w-\[200px\] {
@@ -760,6 +760,10 @@ section:not(.intro):last-child {
 
 .max-w-\[787px\] {
   max-width: 787px;
+}
+
+.max-w-\[990px\] {
+  max-width: 990px;
 }
 
 .shrink-0 {
@@ -821,6 +825,14 @@ section:not(.intro):last-child {
 
 .overflow-x-scroll {
   overflow-x: scroll;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .bg-rp-blue {
@@ -896,6 +908,10 @@ section:not(.intro):last-child {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .group:hover .group-hover\:block {
