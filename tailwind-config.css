@@ -20,13 +20,22 @@
     visibility: hidden;
   }
   h1{
-    @apply mb-4 text-[30px] md:text-[60px] font-bold;
+    @apply mb-4 text-[32px] md:text-[48px] font-bold;
   }
   h2{
-    @apply mb-4 md:text-[49px] font-bold;
+    @apply mb-4 text-[28px] md:text-[36px] font-bold;
   }
   h3{
-    @apply mb-4 md:text-[20px] font-bold;
+    @apply mb-4 text-[24px] md:text-[30px] font-bold;
+  }
+  h4{
+    @apply mb-4 text-[20px] md:text-[24px] font-bold;
+  }
+  h5{
+    @apply mb-4 text-[28px] md:text-[20px] font-bold;
+  }
+  h6{
+    @apply mb-4 text-[16px] font-bold;
   }
   p{
     @apply mb-4;
@@ -45,5 +54,15 @@
   }
   section:not(.intro):last-child{
     @apply mb-0
+  }
+  ul,
+  ol{
+    @apply mb-[16px] ml-[15px];
+  }
+  ul{
+    @apply list-disc;
+  }
+  ol{
+    @apply list-decimal;
   }
 }

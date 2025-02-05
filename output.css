@@ -568,36 +568,68 @@ div.anchor {
 
 h1 {
   margin-bottom: 1rem;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
 }
 
 @media (min-width: 990px) {
   h1 {
-    font-size: 60px;
+    font-size: 48px;
   }
 }
 
 h2 {
   margin-bottom: 1rem;
+  font-size: 28px;
   font-weight: 700;
 }
 
 @media (min-width: 990px) {
   h2 {
-    font-size: 49px;
+    font-size: 36px;
   }
 }
 
 h3 {
   margin-bottom: 1rem;
+  font-size: 24px;
   font-weight: 700;
 }
 
 @media (min-width: 990px) {
   h3 {
+    font-size: 30px;
+  }
+}
+
+h4 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (min-width: 990px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  margin-bottom: 1rem;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media (min-width: 990px) {
+  h5 {
     font-size: 20px;
   }
+}
+
+h6 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 p {
@@ -646,6 +678,20 @@ section:not(.intro) {
 
 section:not(.intro):last-child {
   margin-bottom: 0px;
+}
+
+ul,
+  ol {
+  margin-bottom: 16px;
+  margin-left: 15px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 .container {
@@ -783,6 +829,10 @@ section:not(.intro):last-child {
 
 .grow {
   flex-grow: 1;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .list-disc {
@@ -923,6 +973,12 @@ section:not(.intro):last-child {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .group:hover .group-hover\:block {
