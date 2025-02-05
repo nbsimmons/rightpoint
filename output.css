@@ -589,6 +589,17 @@ h2 {
   }
 }
 
+h3 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+@media (min-width: 990px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -686,6 +697,10 @@ section:not(.intro):last-child {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -704,10 +719,6 @@ section:not(.intro):last-child {
 
 .mt-\[30px\] {
   margin-top: 30px;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .inline {

@@ -25,6 +25,9 @@
   h2{
     @apply mb-4 md:text-[49px] font-bold;
   }
+  h3{
+    @apply mb-4 md:text-[20px] font-bold;
+  }
   p{
     @apply mb-4;
   }
