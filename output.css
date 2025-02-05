@@ -1076,3 +1076,12 @@ ol {
 .\[\&\>li\]\:mb-2>li {
   margin-bottom: 0.5rem;
 }
+
+.\[\&_img\]\:my-\[15px\] img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.\[\&_img\]\:mb-\[30px\] img {
+  margin-bottom: 30px;
+}
