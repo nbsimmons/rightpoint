@@ -28,6 +28,10 @@
   h3{
     @apply mb-4 text-[24px] md:text-[30px] font-bold;
   }
+  details h3{
+    @apply text-[28px] md:text-[20px];
+
+  }
   h4{
     @apply mb-4 text-[20px] md:text-[24px] font-bold;
   }

@@ -602,6 +602,16 @@ h3 {
   }
 }
 
+details h3 {
+  font-size: 28px;
+}
+
+@media (min-width: 990px) {
+  details h3 {
+    font-size: 20px;
+  }
+}
+
 h4 {
   margin-bottom: 1rem;
   font-size: 20px;
