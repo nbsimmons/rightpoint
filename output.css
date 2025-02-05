@@ -700,6 +700,10 @@ ul {
   list-style-type: disc;
 }
 
+header ul {
+  list-style-type: none;
+}
+
 ol {
   list-style-type: decimal;
 }
@@ -1080,8 +1084,4 @@ ol {
 .\[\&_img\]\:my-\[15px\] img {
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-.\[\&_img\]\:mb-\[30px\] img {
-  margin-bottom: 30px;
 }

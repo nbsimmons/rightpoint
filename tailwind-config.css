@@ -66,6 +66,9 @@
   ul{
     @apply list-disc;
   }
+  header ul{
+    @apply list-none;
+  }
   ol{
     @apply list-decimal;
   }
