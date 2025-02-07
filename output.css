@@ -809,6 +809,14 @@ ol {
   height: 100%;
 }
 
+.max-h-full {
+  max-height: 100%;
+}
+
+.max-h-\[50vh\] {
+  max-height: 50vh;
+}
+
 .w-\[25px\] {
   width: 25px;
 }
@@ -900,6 +908,10 @@ ol {
 
 .overflow-x-scroll {
   overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .border-b {
@@ -1040,6 +1052,10 @@ ol {
     height: 100%;
   }
 
+  .md\:max-h-\[100vh\] {
+    max-height: 100vh;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1055,6 +1071,10 @@ ol {
   .md\:gap-x-\[100px\] {
     -moz-column-gap: 100px;
          column-gap: 100px;
+  }
+
+  .md\:overflow-y-scroll {
+    overflow-y: scroll;
   }
 
   .md\:px-3 {
