@@ -949,6 +949,14 @@ ol {
   background-image: url('/img/hero.jpg');
 }
 
+.bg-\[url\(\'\/img\/blogs\/Repointing_Historic_Buildings\'\)\] {
+  background-image: url('/img/blogs/Repointing_Historic_Buildings');
+}
+
+.bg-\[url\(\'\/img\/blogs\/Repointing_Historic_Buildings\.png\'\)\] {
+  background-image: url('/img/blogs/Repointing_Historic_Buildings.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
